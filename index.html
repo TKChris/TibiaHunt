@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TibiaHunt — Monster Spawn Finder</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg:        #0d0a07;
+      --surface:   #1a1208;
+      --border:    #5a3e1b;
+      --gold:      #c9922a;
+      --gold-light:#f0c060;
+      --text:      #e8d5a3;
+      --text-dim:  #8a7050;
+      --red:       #8b1a1a;
+      --red-light: #c43030;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Crimson Text', Georgia, serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(180deg, #0d0a07 0%, #1a1208 100%);
+      border-bottom: 2px solid var(--border);
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-shrink: 0;
+      position: relative;
+      z-index: 1000;
+    }
+
+    header::after {
+      content: '';
+      position: absolute;
+      bottom: -1px; left: 0; right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    }
+
+    .logo {
+      font-family: 'Cinzel', serif;
+      font-weight: 900;
+      font-size: 1.6rem;
+      color: var(--gold-light);
+      letter-spacing: 0.05em;
+      text-shadow: 0 0 20px rgba(201,146,42,0.4);
+      flex-shrink: 0;
+    }
+
+    .logo span { color: var(--red-light); }
+
+    .tagline {
+      font-style: italic;
+      color: var(--text-dim);
+      font-size: 0.95rem;
+      flex-shrink: 0;
+    }
+
+    /* Search in header */
+    .search-wrap {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-left: auto;
+    }
+
+    .search-label {
+      font-family: 'Cinzel', serif;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    #search {
+      background: #0d0a07;
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-family: 'Crimson Text', serif;
+      font-size: 1rem;
+      padding: 8px 14px;
+      width: 220px;
+      outline: none;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    #search:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 12px rgba(201,146,42,0.2);
+    }
+
+    #search::placeholder { color: var(--text-dim); }
+
+    /* ── Main layout: map left, sidebar right ── */
+    .main {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+    }
+
+    /* ── Map ── */
+    .map-wrap {
+      position: relative;
+      flex: 1;
+    }
+
+    #map {
+      width: 100%;
+      height: 100%;
+      background: #0d0a07;
+    }
+
+    #map-hint {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      pointer-events: none;
+      z-index: 500;
+    }
+
+    #map-hint .hint-icon {
+      font-size: 3rem;
+      opacity: 0.12;
+      margin-bottom: 12px;
+    }
+
+    #map-hint p {
+      font-family: 'Cinzel', serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.1em;
+      color: var(--text-dim);
+      opacity: 0.5;
+    }
+
+    /* ── Sidebar (RIGHT) ── */
+    .sidebar {
+      width: 270px;
+      flex-shrink: 0;
+      background: var(--surface);
+      border-left: 2px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .sidebar-header {
+      font-family: 'Cinzel', serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold);
+      padding: 14px 16px 10px;
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+
+    /* Empty prompt shown before search */
+    #sidebar-prompt {
+      padding: 24px 16px;
+      color: var(--text-dim);
+      font-style: italic;
+      font-size: 0.9rem;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    #monster-list {
+      flex: 1;
+      overflow-y: auto;
+    }
+
+    #monster-list::-webkit-scrollbar { width: 4px; }
+    #monster-list::-webkit-scrollbar-track { background: transparent; }
+    #monster-list::-webkit-scrollbar-thumb { background: var(--border); }
+
+    /* Monster group header */
+    .monster-group {
+      border-bottom: 1px solid rgba(90,62,27,0.4);
+    }
+
+    .monster-group-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 14px;
+      background: rgba(201,146,42,0.05);
+      border-bottom: 1px solid rgba(90,62,27,0.3);
+    }
+
+    .monster-icon {
+      width: 28px;
+      height: 28px;
+      image-rendering: pixelated;
+      flex-shrink: 0;
+    }
+
+    .monster-group-name {
+      font-family: 'Cinzel', serif;
+      font-size: 0.82rem;
+      color: var(--gold-light);
+    }
+
+    .monster-group-count {
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      font-style: italic;
+      margin-left: auto;
+    }
+
+    /* Individual spawn entry */
+    .spawn-entry {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 14px 8px 22px;
+      cursor: pointer;
+      border-left: 3px solid transparent;
+      transition: background 0.15s, border-color 0.15s;
+    }
+
+    .spawn-entry:hover {
+      background: rgba(201,146,42,0.07);
+      border-left-color: var(--gold);
+    }
+
+    .spawn-entry.active {
+      background: rgba(201,146,42,0.13);
+      border-left-color: var(--gold-light);
+    }
+
+    .spawn-num {
+      font-family: 'Cinzel', serif;
+      font-size: 0.65rem;
+      color: var(--text-dim);
+      min-width: 18px;
+    }
+
+    .spawn-label {
+      font-size: 0.85rem;
+      color: var(--text);
+      flex: 1;
+      min-width: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .spawn-floor {
+      font-size: 0.7rem;
+      color: var(--text-dim);
+      font-style: italic;
+      flex-shrink: 0;
+    }
+
+    .no-results {
+      padding: 20px 16px;
+      color: var(--text-dim);
+      font-style: italic;
+      font-size: 0.88rem;
+    }
+
+    /* ── Leaflet overrides ── */
+    .leaflet-container { background: #0d0a07; }
+
+    .leaflet-popup-content-wrapper {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 0;
+      color: var(--text);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.8);
+    }
+
+    .leaflet-popup-tip { background: var(--border); }
+
+    .leaflet-popup-content {
+      margin: 12px 16px;
+      font-family: 'Crimson Text', serif;
+    }
+
+    .popup-name {
+      font-family: 'Cinzel', serif;
+      font-size: 0.9rem;
+      color: var(--gold-light);
+      margin-bottom: 4px;
+    }
+
+    .popup-loc {
+      font-style: italic;
+      color: var(--text-dim);
+      font-size: 0.85rem;
+    }
+
+    .popup-coords {
+      margin-top: 4px;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      opacity: 0.7;
+    }
+
+    /* ── Footer ── */
+    footer {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      padding: 6px 20px;
+      font-size: 0.72rem;
+      color: var(--text-dim);
+      font-style: italic;
+      flex-shrink: 0;
+      display: flex;
+      gap: 16px;
+    }
+
+    footer span { opacity: 0.55; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Tibia<span>Hunt</span></div>
+  <div class="tagline">Monster Spawn Finder</div>
+  <div class="search-wrap">
+    <span class="search-label">Monster</span>
+    <input id="search" type="text" placeholder="Search creature..." autocomplete="off" />
+  </div>
+</header>
+
+<div class="main">
+  <!-- Map -->
+  <div class="map-wrap">
+    <div id="map"></div>
+    <div id="map-hint">
+      <div class="hint-icon">⚔</div>
+      <p>Search a creature to reveal spawn locations</p>
+    </div>
+  </div>
+
+  <!-- Sidebar RIGHT -->
+  <aside class="sidebar">
+    <div class="sidebar-header">Creatures</div>
+    <div id="sidebar-prompt">Search for a monster above to see spawn locations.</div>
+    <div id="monster-list"></div>
+  </aside>
+</div>
+
+<footer>
+  <span>Map tiles © TibiaMaps.io</span>
+  <span>Data sourced from TibiaWiki</span>
+  <span>Fan project — not affiliated with CipSoft</span>
+</footer>
+
+<script>
+// ── Coordinate conversion ──────────────────────────────────────────
+// TibiaMaps URL format: #X,Y,floor  e.g. 32769,32660,7
+// TibiaMaps tiles are 256px each. In Leaflet Simple CRS:
+//   leaflet_lat = -(Y)   leaflet_lng = X
+// Each Tibia coord = 1 pixel on the tile sheet at max zoom
+// Tile zoom 0 = 1 tile per 256 Tibia coords
+// We use: leaflet_lat = -tibiaY, leaflet_lng = tibiaX  (direct 1:1)
+
+function tibiaToLL(x, y) {
+  return L.latLng(-y, x);
+}
+
+// ── Map init ───────────────────────────────────────────────────────
+const map = L.map('map', {
+  crs: L.CRS.Simple,
+  minZoom: -2,
+  maxZoom: 2,
+  zoom: 0,
+  zoomControl: true,
+  attributionControl: false,
+});
+
+// ── Custom tile layer using tibiamaps GitHub individual tiles ───────
+// Files: Minimap_Color_{tibiaX}_{tibiaY}_7.png (256x256px each)
+// tibiaX/Y are multiples of 256 matching Tibia world coordinates.
+// We only render at zoom 0 (1:1). Zoom out shows dark bg which is fine.
+
+const TibiaLayer = L.GridLayer.extend({
+  createTile: function(coords) {
+    const img = document.createElement('img');
+    img.style.width = '256px';
+    img.style.height = '256px';
+    img.style.imageRendering = 'pixelated';
+
+    if (coords.z === 0) {
+      const tibiaX = coords.x * 256;
+      const tibiaY = coords.y * 256;
+      img.src = `https://tibiamaps.github.io/tibia-map-data/data/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
+    }
+
+    img.onerror = () => { img.style.opacity = '0'; };
+    return img;
+  }
+});
+
+new TibiaLayer({
+  minZoom: -4,
+  maxZoom: 2,
+  tileSize: 256,
+  noWrap: true,
+  keepBuffer: 4,
+}).addTo(map);
+
+// Default view centred on Thais at zoom 0 so tiles are visible
+map.setView(tibiaToLL(32369, 32241), 0);
+
+// ── Marker icon ────────────────────────────────────────────────────
+function makeIcon(active = false) {
+  const fill = active ? '#f0c060' : '#c9922a';
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="30" viewBox="0 0 22 30">
+    <path d="M11 0C4.9 0 0 4.9 0 11c0 8.3 11 19 11 19S22 19.3 22 11C22 4.9 17.1 0 11 0z"
+      fill="${fill}" stroke="#1a1208" stroke-width="1.5"/>
+    <circle cx="11" cy="11" r="4.5" fill="#1a1208" opacity="0.55"/>
+  </svg>`;
+  return L.divIcon({ html: svg, className: '', iconSize: [22, 30], iconAnchor: [11, 30], popupAnchor: [0, -32] });
+}
+
+// ── State ──────────────────────────────────────────────────────────
+let monsters = [];
+let markers  = [];
+let activeSpawnKey = null; // "MonsterName-spawnIndex"
+
+// ── Render sidebar list ────────────────────────────────────────────
+function renderList(query) {
+  const list   = document.getElementById('monster-list');
+  const prompt = document.getElementById('sidebar-prompt');
+  const hint   = document.getElementById('map-hint');
+  const q      = query.trim().toLowerCase();
+
+  if (!q) {
+    prompt.style.display = '';
+    list.innerHTML = '';
+    return;
+  }
+
+  prompt.style.display = 'none';
+
+  const filtered = monsters.filter(m => m.name.toLowerCase().includes(q));
+
+  if (!filtered.length) {
+    list.innerHTML = '<div class="no-results">No creatures found.</div>';
+    return;
+  }
+
+  list.innerHTML = filtered.map(m => `
+    <div class="monster-group">
+      <div class="monster-group-header">
+        <img class="monster-icon"
+             src="${m.image}"
+             onerror="this.style.opacity='0.25'"
+             alt="${m.name}" />
+        <span class="monster-group-name">${m.name}</span>
+        <span class="monster-group-count">${m.spawns.length} spawn${m.spawns.length !== 1 ? 's' : ''}</span>
+      </div>
+      ${m.spawns.map((s, i) => `
+        <div class="spawn-entry ${activeSpawnKey === m.name+'-'+i ? 'active' : ''}"
+             onclick="goToSpawn('${m.name}', ${i})">
+          <span class="spawn-num">${i + 1}.</span>
+          <span class="spawn-label">${s.label}</span>
+          <span class="spawn-floor">${s.floor === 0 ? 'Surface' : 'F' + s.floor}</span>
+        </div>
+      `).join('')}
+    </div>
+  `).join('');
+
+  // Show all markers for all matching monsters
+  showMarkersFor(filtered);
+  hint.style.display = 'none';
+}
+
+// ── Show all markers for a set of monsters ─────────────────────────
+function showMarkersFor(monsterArr) {
+  markers.forEach(m => map.removeLayer(m));
+  markers = [];
+
+  monsterArr.forEach(monster => {
+    monster.spawns.forEach((spawn, i) => {
+      const ll = tibiaToLL(spawn.x, spawn.y);
+      const isActive = activeSpawnKey === monster.name + '-' + i;
+      const marker = L.marker(ll, { icon: makeIcon(isActive) }).addTo(map);
+      marker.bindPopup(`
+        <div class="popup-name">${monster.name} — Entry ${i + 1}</div>
+        <div class="popup-loc">📍 ${spawn.label}</div>
+        <div class="popup-coords">${spawn.x}, ${spawn.y} · ${spawn.floor === 0 ? 'Surface' : 'Floor ' + spawn.floor}</div>
+      `);
+      markers.push(marker);
+    });
+  });
+}
+
+// ── Go to individual spawn ─────────────────────────────────────────
+function goToSpawn(monsterName, spawnIndex) {
+  activeSpawnKey = monsterName + '-' + spawnIndex;
+
+  const monster = monsters.find(m => m.name === monsterName);
+  if (!monster) return;
+
+  const spawn = monster.spawns[spawnIndex];
+  const ll = tibiaToLL(spawn.x, spawn.y);
+
+  // Re-render markers so active one gets highlighted icon
+  const q = document.getElementById('search').value;
+  const filtered = monsters.filter(m => m.name.toLowerCase().includes(q.toLowerCase()));
+  showMarkersFor(filtered);
+
+  // Re-render list to update active class
+  renderList(q);
+
+  // Zoom into exact spawn tile
+  map.setView(ll, 0);
+
+  // Open popup on that marker
+  const matchMarker = markers.find((_, idx) => {
+    // Find the marker index matching this monster+spawn
+    let count = 0;
+    for (const m of filtered) {
+      for (let i = 0; i < m.spawns.length; i++) {
+        if (m.name === monsterName && i === spawnIndex) return idx === count;
+        count++;
+      }
+    }
+    return false;
+  });
+  if (matchMarker) matchMarker.openPopup();
+}
+
+// ── Search input ───────────────────────────────────────────────────
+document.getElementById('search').addEventListener('input', function () {
+  activeSpawnKey = null;
+  renderList(this.value);
+});
+
+// ── Load data ──────────────────────────────────────────────────────
+fetch('monsters.json')
+  .then(r => r.json())
+  .then(data => { monsters = data; })
+  .catch(() => {
+    monsters = [
+      {
+        name: "Tiger",
+        image: "https://tibia.fandom.com/wiki/Special:Redirect/file/Tiger.gif",
+        spawns: [
+          { x: 32769, y: 32660, floor: 7, label: "Tiquanda — Spawn 1" },
+          { x: 32850, y: 32700, floor: 7, label: "Tiquanda — Spawn 2" }
+        ]
+      },
+      {
+        name: "Troll",
+        image: "https://tibia.fandom.com/wiki/Special:Redirect/file/Troll.gif",
+        spawns: [
+          { x: 32310, y: 32115, floor: 7, label: "North of Thais" },
+          { x: 32260, y: 32130, floor: 7, label: "West of Thais" }
+        ]
+      },
+      {
+        name: "Deer",
+        image: "https://tibia.fandom.com/wiki/Special:Redirect/file/Deer.gif",
+        spawns: [
+          { x: 32290, y: 32090, floor: 7, label: "Plains North of Thais" }
+        ]
+      }
+    ];
+  });
+</script>
+</body>
+</html>
