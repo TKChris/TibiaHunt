@@ -407,7 +407,7 @@ const TibiaLayer = L.GridLayer.extend({
     if (coords.z === 0) {
       const tibiaX = coords.x * 256;
       const tibiaY = coords.y * 256;
-      img.src = `https://tibiamaps.github.io/tibia-map-data/data/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
+      img.src = `/tiles/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
     }
 
     img.onerror = () => { img.style.opacity = '0'; };
