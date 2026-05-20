@@ -386,7 +386,7 @@ function tibiaToLL(x, y) {
 const map = L.map('map', {
   crs: L.CRS.Simple,
   minZoom: -2,
-  maxZoom: 0,
+  maxZoom: 2,
   zoomControl: true,
   attributionControl: false,
 });
@@ -442,7 +442,7 @@ const TibiaLayer = L.GridLayer.extend({
 
 new TibiaLayer({
   minZoom: -2,
-  maxZoom: 0,
+  maxZoom: 2,
   tileSize: 256,
   noWrap: true,
   keepBuffer: 8,
