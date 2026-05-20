@@ -386,7 +386,7 @@ function tibiaToLL(x, y) {
 const map = L.map('map', {
   crs: L.CRS.Simple,
   minZoom: -2,
-  maxZoom: 0,
+  maxZoom: 4,
   zoom: 0,
   zoomControl: true,
   attributionControl: false,
@@ -404,13 +404,13 @@ const TibiaLayer = L.GridLayer.extend({
     img.style.height = '256px';
     img.style.imageRendering = 'pixelated';
 
-    if (coords.z === 0) {
+    if (coords.z <= 0) {
       const tibiaX = coords.x * 256;
       const tibiaY = coords.y * 256;
       img.src = `/tiles/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
     }
 
-    img.onerror = () => { img.style.opacity = '0'; };
+    img.onerror = () => { img.style.display = 'none'; };
     return img;
   }
 });
