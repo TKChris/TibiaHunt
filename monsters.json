@@ -2,6 +2,7 @@
   {
     "name": "Tiger",
     "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tiger.gif",
+    "loot": ["Meat", "Tiger Paw", "Striped Fur"],
     "spawns": [
       { "x": 32769, "y": 32660, "floor": 7, "label": "Tiquanda — Entry 1" },
       { "x": 32850, "y": 32700, "floor": 7, "label": "Tiquanda — Entry 2" }
