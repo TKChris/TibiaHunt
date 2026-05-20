@@ -404,9 +404,9 @@ const TibiaLayer = L.GridLayer.extend({
     img.style.height = '256px';
     img.style.imageRendering = 'pixelated';
 
-    if (coords.z === 0) {
-      const tibiaX = coords.x * 256;
-      const tibiaY = coords.y * 256;
+    if (coords.z >= 0) {
+      const tibiaX = Math.floor(coords.x / Math.pow(2, coords.z)) * 256;
+      const tibiaY = Math.floor(coords.y / Math.pow(2, coords.z)) * 256;
       img.src = `/tiles/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
     }
 
@@ -424,7 +424,7 @@ new TibiaLayer({
 }).addTo(map);
 
 // Default view centred on Thais at zoom 0 so tiles are visible
-map.setView(tibiaToLL(32369, 32241), 0);
+map.setMaxBounds([[-33024, 31744], [-30976, 33792]]);
 
 // ── Marker icon ────────────────────────────────────────────────────
 function makeIcon(active = false) {
