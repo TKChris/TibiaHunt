@@ -393,21 +393,31 @@ const map = L.map('map', {
 
 const TibiaLayer = L.GridLayer.extend({
   createTile: function(coords) {
-    const img = document.createElement('img');
-    img.style.width  = '256px';
-    img.style.height = '256px';
-    img.style.imageRendering = 'pixelated';
+    const canvas = document.createElement('canvas');
+    canvas.width  = 256;
+    canvas.height = 256;
+    const ctx = canvas.getContext('2d');
 
     const scale = Math.pow(2, -coords.z);
-    const tibiaX = Math.floor(coords.x * scale) * 256;
-    const tibiaY = Math.floor(coords.y * scale) * 256;
+    const tilesPerSide = scale;
+    const tileDrawSize = 256 / tilesPerSide;
 
-    if (tibiaX >= 31744 && tibiaX <= 33792 && tibiaY >= 30976 && tibiaY <= 33024) {
-      img.src = `/tiles/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
+    for (let dy = 0; dy < tilesPerSide; dy++) {
+      for (let dx = 0; dx < tilesPerSide; dx++) {
+        const tibiaX = (coords.x * tilesPerSide + dx) * 256;
+        const tibiaY = (coords.y * tilesPerSide + dy) * 256;
+
+        if (tibiaX >= 31744 && tibiaX <= 33792 && tibiaY >= 30976 && tibiaY <= 33024) {
+          const img = new Image();
+          img.onload = () => {
+            ctx.drawImage(img, dx * tileDrawSize, dy * tileDrawSize, tileDrawSize, tileDrawSize);
+          };
+          img.src = `/tiles/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
+        }
+      }
     }
 
-    img.onerror = () => { img.style.display = 'none'; };
-    return img;
+    return canvas;
   }
 });
 
