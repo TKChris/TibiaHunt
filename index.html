@@ -399,12 +399,9 @@ const TibiaLayer = L.GridLayer.extend({
     img.style.height = '256px';
     img.style.imageRendering = 'pixelated';
 
-    // At zoom 0: 1 tile = 256 Tibia coords
-    // At zoom -1: 1 tile = 512 Tibia coords (snap to nearest 256 tile)
-    // At zoom -2: 1 tile = 1024 Tibia coords (snap to nearest 256 tile)
     const scale = Math.pow(2, -coords.z);
-    const tibiaX = Math.floor((coords.x * 256 * scale) / 256) * 256;
-    const tibiaY = Math.floor((coords.y * 256 * scale) / 256) * 256;
+    const tibiaX = Math.floor(coords.x * scale) * 256;
+    const tibiaY = Math.floor(coords.y * scale) * 256;
 
     if (tibiaX >= 31744 && tibiaX <= 33792 && tibiaY >= 30976 && tibiaY <= 33024) {
       img.src = `/tiles/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
@@ -417,13 +414,15 @@ const TibiaLayer = L.GridLayer.extend({
 
 new TibiaLayer({
   minZoom: -2,
-  maxZoom: 2,
+  maxZoom: 0,
   tileSize: 256,
   noWrap: true,
-  keepBuffer: 2,
+  keepBuffer: 8,
+  updateWhenZooming: false,
+  updateWhenIdle: true,
 }).addTo(map);
 
-map.setView(tibiaToLL(32369, 32241), -2);
+map.setView(tibiaToLL(32369, 32454), -1);
 map.setMaxBounds([[-33280, 31488], [-30720, 34048]]);
 map.options.maxBoundsViscosity = 0.5;
 
