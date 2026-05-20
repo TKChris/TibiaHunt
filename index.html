@@ -386,11 +386,46 @@ function tibiaToLL(x, y) {
 const map = L.map('map', {
   crs: L.CRS.Simple,
   minZoom: -2,
-  maxZoom: 4,
-  zoom: 0,
+  maxZoom: 2,
   zoomControl: true,
   attributionControl: false,
 });
+
+// ── Custom tile layer ──────────────────────────────────────────────
+const TibiaLayer = L.GridLayer.extend({
+  createTile: function(coords) {
+    const img = document.createElement('img');
+    img.style.width  = '256px';
+    img.style.height = '256px';
+    img.style.imageRendering = 'pixelated';
+
+    // At zoom 0: 1 tile = 256 Tibia coords
+    // At zoom -1: 1 tile = 512 Tibia coords (snap to nearest 256 tile)
+    // At zoom -2: 1 tile = 1024 Tibia coords (snap to nearest 256 tile)
+    const scale = Math.pow(2, -coords.z);
+    const tibiaX = Math.floor((coords.x * 256 * scale) / 256) * 256;
+    const tibiaY = Math.floor((coords.y * 256 * scale) / 256) * 256;
+
+    if (tibiaX >= 31744 && tibiaX <= 33792 && tibiaY >= 30976 && tibiaY <= 33024) {
+      img.src = `/tiles/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
+    }
+
+    img.onerror = () => { img.style.display = 'none'; };
+    return img;
+  }
+});
+
+new TibiaLayer({
+  minZoom: -2,
+  maxZoom: 2,
+  tileSize: 256,
+  noWrap: true,
+  keepBuffer: 2,
+}).addTo(map);
+
+map.setView(tibiaToLL(32369, 32241), -2);
+map.setMaxBounds([[-33280, 31488], [-30720, 34048]]);
+map.options.maxBoundsViscosity = 0.5;
 
 // ── Custom tile layer using tibiamaps GitHub individual tiles ───────
 // Files: Minimap_Color_{tibiaX}_{tibiaY}_7.png (256x256px each)
