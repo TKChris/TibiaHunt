@@ -386,7 +386,7 @@ function tibiaToLL(x, y) {
 const map = L.map('map', {
   crs: L.CRS.Simple,
   minZoom: -2,
-  maxZoom: 2,
+  maxZoom: 0,
   zoom: 0,
   zoomControl: true,
   attributionControl: false,
@@ -404,9 +404,9 @@ const TibiaLayer = L.GridLayer.extend({
     img.style.height = '256px';
     img.style.imageRendering = 'pixelated';
 
-    if (coords.z >= 0) {
-      const tibiaX = Math.floor(coords.x / Math.pow(2, coords.z)) * 256;
-      const tibiaY = Math.floor(coords.y / Math.pow(2, coords.z)) * 256;
+    if (coords.z === 0) {
+      const tibiaX = coords.x * 256;
+      const tibiaY = coords.y * 256;
       img.src = `/tiles/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
     }
 
@@ -424,7 +424,8 @@ new TibiaLayer({
 }).addTo(map);
 
 // Default view centred on Thais at zoom 0 so tiles are visible
-map.setMaxBounds([[-33024, 31744], [-30976, 33792]]);
+map.setMaxBounds([[-33280, 31488], [-30720, 34048]]);
+map.options.maxBoundsViscosity = 0.5;
 
 // ── Marker icon ────────────────────────────────────────────────────
 function makeIcon(active = false) {
