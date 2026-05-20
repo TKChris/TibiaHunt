@@ -427,41 +427,6 @@ map.setView(tibiaToLL(32369, 32241), -2);
 map.setMaxBounds([[-33280, 31488], [-30720, 34048]]);
 map.options.maxBoundsViscosity = 0.5;
 
-// ── Custom tile layer using tibiamaps GitHub individual tiles ───────
-// Files: Minimap_Color_{tibiaX}_{tibiaY}_7.png (256x256px each)
-// tibiaX/Y are multiples of 256 matching Tibia world coordinates.
-// We only render at zoom 0 (1:1). Zoom out shows dark bg which is fine.
-
-const TibiaLayer = L.GridLayer.extend({
-  createTile: function(coords) {
-    const img = document.createElement('img');
-    img.style.width = '256px';
-    img.style.height = '256px';
-    img.style.imageRendering = 'pixelated';
-
-    if (coords.z <= 0) {
-      const tibiaX = coords.x * 256;
-      const tibiaY = coords.y * 256;
-      img.src = `/tiles/Minimap_Color_${tibiaX}_${tibiaY}_7.png`;
-    }
-
-    img.onerror = () => { img.style.display = 'none'; };
-    return img;
-  }
-});
-
-new TibiaLayer({
-  minZoom: -4,
-  maxZoom: 2,
-  tileSize: 256,
-  noWrap: true,
-  keepBuffer: 4,
-}).addTo(map);
-
-// Default view centred on Thais at zoom 0 so tiles are visible
-map.setMaxBounds([[-33280, 31488], [-30720, 34048]]);
-map.options.maxBoundsViscosity = 0.5;
-
 // ── Marker icon ────────────────────────────────────────────────────
 function makeIcon(active = false) {
   const fill = active ? '#f0c060' : '#c9922a';
