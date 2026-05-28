@@ -624,7 +624,12 @@ document.getElementById('search').addEventListener('input', function () {
 });
 
 // ── Load data ──────────────────────────────────────────────────────
-fetch('monsters.json') .then(r => r.json()) .then(data => { monsters = data; }) .catch(() => { console.log('Failed to load monsters.json'); });
+fetch('monsters.json') 
+  .then(r => r.json()) 
+  .then(data => { monsters = data; }) 
+  .catch(() => { 
+    console.log('Failed to load monsters.json'); 
+  });
 </script>
 </body>
 </html>
