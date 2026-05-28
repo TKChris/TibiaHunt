@@ -624,36 +624,7 @@ document.getElementById('search').addEventListener('input', function () {
 });
 
 // ── Load data ──────────────────────────────────────────────────────
-fetch('monsters.json')
-  .then(r => r.json())
-  .then(data => { monsters = data; })
-  .catch(() => {
-    monsters = [
-      {
-        name: "Tiger",
-        image: "https://tibia.fandom.com/wiki/Special:Redirect/file/Tiger.gif",
-        spawns: [
-          { x: 32769, y: 32660, floor: 7, label: "Tiquanda — Spawn 1" },
-          { x: 32850, y: 32700, floor: 7, label: "Tiquanda — Spawn 2" }
-        ]
-      },
-      {
-        name: "Troll",
-        image: "https://tibia.fandom.com/wiki/Special:Redirect/file/Troll.gif",
-        spawns: [
-          { x: 32310, y: 32115, floor: 7, label: "North of Thais" },
-          { x: 32260, y: 32130, floor: 7, label: "West of Thais" }
-        ]
-      },
-      {
-        name: "Deer",
-        image: "https://tibia.fandom.com/wiki/Special:Redirect/file/Deer.gif",
-        spawns: [
-          { x: 32290, y: 32090, floor: 7, label: "Plains North of Thais" }
-        ]
-      }
-    ];
-  });
+fetch('monsters.json') .then(r => r.json()) .then(data => { monsters = data; }) .catch(() => { console.log('Failed to load monsters.json'); });
 </script>
 </body>
 </html>
