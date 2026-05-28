@@ -1,1601 +1,343 @@
 [
-  {
-    "name": "Amazon",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Amazon.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 12853,
-        "y": 124181,
-        "floor": 7,
-        "label": "Amazone Camp Venore",
-        "note": "Biggest spawn"
-      },
-      {
-        "x": 126166,
-        "y": 123117,
-        "floor": 7,
-        "label": "Carlin Amazone Camp",
-        "note": ""
-        // 126.166,123.117
-      },
-      {
-        "x": 12699,
-        "y": 123157,
-        "floor": 7,
-        "label": "Carlin Amazone Tower",
-        "note": ""
-        // 126.99,123.157
-      },
-      {
-        "x": 129108,
-        "y": 127129,
-        "floor": 7,
-        "label": "Oasis Tomb",
-        "note": " 3-4 Amazons"
-        // 129.108,127.129
-      },
-      {
-        "x": 12293,
-        "y": 12858,
-        "floor": 7,
-        "label": "Trade Quarter  - Yalahar - Surface and North Roofs",
-        "note": ""
-        // 128.58,122.93
-      }
-    ]
-  },
-  {
-    "name": "Assassin",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Assassin.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 127152,
-        "y": 12688,
-        "floor": 7,
-        "label": "Dark Cathedral",
-        "note": "Biggest spawn"
-        //127.152,126.88
-      },
-      {
-        "x": 12858,
-        "y": 12293,
-        "floor": 7,
-        "label": "Trade Quarter  - Yalahar - Surface and Roofs",
-        "note": ""
-        //128.58,122.93
-      },
-      {
-        "x": 128156,
-        "y": 12251,
-        "floor": 7,
-        "label": "Factory Quarter - Yalahar",
-        "note": "Few on surface"
-        //128.156,122.51
-      },
-      {
-        "x": 127197,
-        "y": 12276,
-        "floor": 7,
-        "label": "Foreigner Quarter - Yalahar",
-        "note": "Smallest Spawn - Scattered on surfaces and roofs"
-        // 127197,12276
-      }
-    ]
-  },
-  {
-    "name": "Bandit",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bandit.gif",
-    "loot": [],
-    "spawns": [
-        {
-        "x": 127152,
-        "y": 12688,
-        "floor": 7,
-        "label": "Dark Cathedral",
-        "note": "Biggest spawn - Run laps to all rooms on -1 and -2"
-        //127.152,126.88
-      },
-      {
-        "x": 12743,
-        "y": 127167,
-        "floor": 7,
-        "label": "Tiquanda - Bandit Caves",
-        "note": "Contains Rare Boss Smuggler Baron Silvertoe"
-        // 12743,127167
-      },
-      {
-        "x": 127131,
-        "y": 125222,
-        "floor": 7,
-        "label": "Outlaw Camp",
-        "note": "Few scattered around"
-        // 127131,125222
-      },
-      {
-        "x": 126103,
-        "y": 12626,
-        "floor": 7,
-        "label": "Thais Bandit Cave",
-        "note": ""
-        // 126103,12626
-        //Investigate Ingame
-      },
-      {
-        "x": 12722,
-        "y": 123141,
-        "floor": 7,
-        "label": "The Cave - North of Carlin",
-        "note": "Also contains Pirates and Pirate Skeleton and Ghost "
-        // 12722,123141
-      }
-    ]
-  },
-  {
-    "name": "Barbarian Brutetamer",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barbarian_Brutetamer.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 12528,
-        "y": 122165,
-        "floor": 7,
-        "label": "Krimhorn",
-        "note": "Biggest spawn - Spend a little time here for charms if not done"
-        // 12528,122165
-      },
-      {
-        "x": 1253,
-        "y": 121252,
-        "floor": 7,
-        "label": "Bittermor",
-        "note": "Second biggest spawn"
-        //1253,121252
-      },
-      {
-        "x": 125135,
-        "y": 122100,
-        "floor": 7,
-        "label": "Ragnir",
-        "note": "Third biggest spawn"
-        //125135,122100
-      }
-    ]
-  },
-  {
-    "name": "Barbarian Headsplitter",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barbarian_Headsplitter.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 12528,
-        "y": 122165,
-        "floor": 7,
-        "label": "Krimhorn",
-        "note": "Biggest spawn - Spend a little time here for charms if not done"
-        // 12528,122165
-      },
-      {
-        "x": 1253,
-        "y": 121252,
-        "floor": 7,
-        "label": "Bittermor",
-        "note": "Second biggest spawn"
-        //1253,121252
-      },
-      {
-        "x": 125135,
-        "y": 122100,
-        "floor": 7,
-        "label": "Ragnir",
-        "note": "Third biggest spawn"
-        //125135,122100
-      }
-    ]
-  },
-  {
-    "name": "Barbarian Skullhunter",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barbarian_Skullhunter.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 12528,
-        "y": 122165,
-        "floor": 7,
-        "label": "Krimhorn",
-        "note": "Biggest spawn - Spend a little time here for charms if not done"
-        // 12528,122165
-      },
-      {
-        "x": 1253,
-        "y": 121252,
-        "floor": 7,
-        "label": "Bittermor",
-        "note": "Second biggest spawn"
-        //1253,121252
-      },
-      {
-        "x": 125135,
-        "y": 122100,
-        "floor": 7,
-        "label": "Ragnir",
-        "note": "Third biggest spawn"
-        //125135,122100
-      }
-    ]
-  },
-  {
-    "name": "Bear",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bear.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Blood Crab",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blood_Crab.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Boar",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Boar.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Bonelord",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bonelord.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Carrion Worm",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Carrion_Worm.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Centipede",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Centipede.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Chakoya Toolshaper",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chakoya_Toolshaper.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Chakoya Tribewarden",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chakoya_Tribewarden.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Chakoya Windcaller",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chakoya_Windcaller.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Cobra",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cobra.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Corym Charlatan",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Corym_Charlatan.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Crazed Beggar",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crazed_Beggar.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Crocodile",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crocodile.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Crypt Shambler",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crypt_Shambler.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Cyclops",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cyclops.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Dark Apprentice",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dark_Apprentice.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Dark Magician",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dark_Magician.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Dark Monk",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dark_Monk.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Dawnfly",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dawnfly.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Deepling Brawler",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepling_Brawler.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Dwarf",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dwarf.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Dwarf Guard",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dwarf_Guard.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Dwarf Soldier",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dwarf_Soldier.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Dworc Fleshhunter",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dworc_Fleshhunter.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Dworc Venomsniper",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dworc_Venomsniper.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Dworc Voodoomaster",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dworc_Voodoomaster.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Elephant",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elephant.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Elf",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elf.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Elf Arcanist",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elf_Arcanist.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Elf Scout",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elf_Scout.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Emerald Damselfly",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Emerald_Damselfly.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Fire Devil",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fire_Devil.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Frost Giant",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frost_Giant.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Frost Giantess",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frost_Giantess.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Gang Member",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gang_Member.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Gargoyle",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gargoyle.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Ghost",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ghost.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Ghoul",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ghoul.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Gladiator",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gladiator.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Gloom Wolf",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gloom_Wolf.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Gnarlhound",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gnarlhound.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Goblin Assassin",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Goblin_Assassin.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Goblin Scavenger",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Goblin_Scavenger.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Gozzler",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gozzler.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Hunter",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hunter.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Hyena",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hyena.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Insectoid Worker",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Insectoid_Worker.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Kongra",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Kongra.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Larva",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Larva.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Leaf Golem",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Leaf_Golem.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Lion",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lion.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Lizard Executioner",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Executioner.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Lizard Henchman",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Henchman.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Lizard Sentinel",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Sentinel.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Lizard Templar",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Templar.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Mammoth",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mammoth.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Meadow Strider",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Meadow_Strider.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Mercury Blob",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mercury_Blob.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Merlkin",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Merlkin.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Minotaur",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Minotaur Archer",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Archer.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Minotaur Guard",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Guard.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Minotaur Mage",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Mage.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Monk",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Monk.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Mummy",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mummy.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Nomad",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nomad.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Novice of the Cult",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Novice_of_the_Cult.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Orc",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Orc Rider",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Rider.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Orc Shaman",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Shaman.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Orc Spearman",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Spearman.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Orc Warrior",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Warrior.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Pirate Cook",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Cook.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Pirate Ghost",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Ghost.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Pirate Marauder",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Marauder.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Pirate Skeleton",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Skeleton.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Poacher",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Poacher.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Polar Bear",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Polar_Bear.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Quara Mantassin",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Mantassin.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Rabid Wolf",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rabid_Wolf.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Ragged Rabid Wolf",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ragged_Rabid_Wolf.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Rorc",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rorc.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Rotworm",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rotworm.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Salamander",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Salamander.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Scarab",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Scarab.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Scorpion",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Scorpion.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Sibang",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sibang.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Skeleton",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Skeleton.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Skeleton Warrior",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Skeleton_Warrior.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Smuggler",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Smuggler.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Stalker",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Stalker.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Stone Golem",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Stone_Golem.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Swamp Troll",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Swamp_Troll.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Swampling",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Swampling.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Tarantula",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tarantula.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Termite",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Termite.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Terror Bird",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Terror_Bird.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Thornback Tortoise",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Thornback_Tortoise.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Tiger",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tiger.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 32769,
-        "y": 32660,
-        "floor": 7,
-        "label": "Tiquanda — West Surface",
-        "note": "2-3 near pin"
-      },
-      {
-        "x": 32850,
-        "y": 32700,
-        "floor": 7,
-        "label": "Tiquanda — East Surface",
-        "note": "2-3 near pin"
-      }
-    ]
-  },
-  {
-    "name": "Toad",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Toad.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Tortoise",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tortoise.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Valkyrie",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Valkyrie.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "War Wolf",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/War_Wolf.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "White Tiger",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/White_Tiger.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  },
-  {
-    "name": "Wild Warrior",
-    "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wild_Warrior.gif",
-    "loot": [],
-    "spawns": [
-      {
-        "x": 0,
-        "y": 0,
-        "floor": 7,
-        "label": "Location TBD"
-      }
-    ]
-  }
+  { "name": "Amazon", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Amazon.gif", "loot": [], "spawns": [
+    { "x": 32853, "y": 31924, "floor": 7, "label": "Amazon Camp - Venore", "note": "Biggest Spawn" },
+    { "x": 32422, "y": 31605, "floor": 7, "label": "Amazon Camp - Carlin", "note": "Second biggest spawn" },
+    { "x": 32355, "y": 31645, "floor": 7, "label": "Amazon Tower - Carlin", "note": "Third biggest spawn" },
+    { "x": 33132, "y": 32641, "floor": 7, "label": "Oasis Tomb - Ankrahmun", "note": "" },
+    { "x": 32826, "y": 31325, "floor": 7, "label": "Trade Quarter", "note": "Scattered on surface and roofs" }
+  ]},
+  { "name": "Assassin", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Assassin.gif", "loot": [], "spawns": [
+    { "x": 32664, "y": 32344, "floor": 7, "label": "Dark Cathedral", "note": "Biggest Spawn" },
+    { "x": 32826, "y": 31325, "floor": 7, "label": "Trade Quarter - Yalahar", "note": "Scattered on surface and roofs" },
+    { "x": 32924, "y": 31283, "floor": 7, "label": "Factory QUarter - Yalahar", "note": "Scattered on surface and +1" },
+    { "x": 32709, "y": 31308, "floor": 7, "label": "Foreigner Quarter - Yalahar", "note": "Scattered on surface and +1" }
+  ]},
+  { "name": "Bandit", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bandit.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Barbarian Brutetamer", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barbarian_Brutetamer.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Barbarian Headsplitter", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barbarian_Headsplitter.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Barbarian Skullhunter", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barbarian_Skullhunter.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Bear", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bear.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Blood Crab", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Blood_Crab.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Boar", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Boar.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Bonelord", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bonelord.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Carrion Worm", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Carrion_Worm.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Centipede", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Centipede.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Chakoya Toolshaper", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chakoya_Toolshaper.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Chakoya Tribewarden", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chakoya_Tribewarden.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Chakoya Windcaller", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Chakoya_Windcaller.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Cobra", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cobra.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Corym Charlatan", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Corym_Charlatan.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Crazed Beggar", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crazed_Beggar.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Crocodile", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crocodile.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Crypt Shambler", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crypt_Shambler.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Cyclops", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cyclops.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Dark Apprentice", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dark_Apprentice.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Dark Magician", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dark_Magician.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Dark Monk", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dark_Monk.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Dawnfly", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dawnfly.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Deepling Brawler", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepling_Brawler.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Dwarf", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dwarf.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Dwarf Guard", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dwarf_Guard.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Dwarf Soldier", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dwarf_Soldier.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Dworc Fleshhunter", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dworc_Fleshhunter.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Dworc Venomsniper", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dworc_Venomsniper.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Dworc Voodoomaster", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dworc_Voodoomaster.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Elephant", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elephant.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Elf", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elf.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Elf Arcanist", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elf_Arcanist.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Elf Scout", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elf_Scout.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Emerald Damselfly", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Emerald_Damselfly.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Fire Devil", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fire_Devil.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Frost Giant", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frost_Giant.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Frost Giantess", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frost_Giantess.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Gang Member", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gang_Member.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Gargoyle", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gargoyle.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Ghost", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ghost.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Ghoul", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ghoul.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Gladiator", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gladiator.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Gloom Wolf", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gloom_Wolf.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Gnarlhound", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gnarlhound.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Goblin Assassin", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Goblin_Assassin.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Goblin Scavenger", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Goblin_Scavenger.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Gozzler", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gozzler.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Hunter", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hunter.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Hyena", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Hyena.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Insectoid Worker", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Insectoid_Worker.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Kongra", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Kongra.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Larva", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Larva.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Leaf Golem", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Leaf_Golem.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Lion", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lion.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Lizard Executioner", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Executioner.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Lizard Henchman", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Henchman.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Lizard Sentinel", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Sentinel.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Lizard Templar", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Templar.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Mammoth", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mammoth.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Meadow Strider", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Meadow_Strider.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Mercury Blob", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mercury_Blob.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Merlkin", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Merlkin.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Minotaur", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Minotaur Archer", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Archer.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Minotaur Guard", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Guard.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Minotaur Mage", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Minotaur_Mage.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Monk", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Monk.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Mummy", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Mummy.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Nomad", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Nomad.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Novice of the Cult", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Novice_of_the_Cult.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Orc", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Orc Rider", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Rider.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Orc Shaman", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Shaman.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Orc Spearman", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Spearman.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Orc Warrior", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Orc_Warrior.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Pirate Cook", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Cook.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Pirate Ghost", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Ghost.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Pirate Marauder", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Marauder.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Pirate Skeleton", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Pirate_Skeleton.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Poacher", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Poacher.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Polar Bear", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Polar_Bear.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Quara Mantassin", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Mantassin.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Rabid Wolf", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rabid_Wolf.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Ragged Rabid Wolf", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ragged_Rabid_Wolf.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Rorc", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rorc.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Rotworm", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Rotworm.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Salamander", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Salamander.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Scarab", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Scarab.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Scorpion", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Scorpion.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Sibang", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Sibang.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Skeleton", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Skeleton.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Skeleton Warrior", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Skeleton_Warrior.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Smuggler", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Smuggler.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Stalker", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Stalker.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Stone Golem", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Stone_Golem.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Swamp Troll", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Swamp_Troll.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Swampling", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Swampling.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Tarantula", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tarantula.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Termite", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Termite.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Terror Bird", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Terror_Bird.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Thornback Tortoise", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Thornback_Tortoise.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Tiger", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tiger.gif", "loot": [], "spawns": [
+    { "x": 32769, "y": 32660, "floor": 7, "label": "Tiquanda — West Surface", "note": "2-3 near pin" },
+    { "x": 32850, "y": 32700, "floor": 7, "label": "Tiquanda — East Surface", "note": "2-3 near pin" }
+  ]},
+  { "name": "Toad", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Toad.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Tortoise", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Tortoise.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Valkyrie", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Valkyrie.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "War Wolf", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/War_Wolf.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "White Tiger", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/White_Tiger.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]},
+  { "name": "Wild Warrior", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Wild_Warrior.gif", "loot": [], "spawns": [
+    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+  ]}
 ]
