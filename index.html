@@ -572,9 +572,10 @@ function showMarkersFor(monsterArr) {
       const isActive = activeSpawnKey === monster.name + '-' + i;
       const marker = L.marker(ll, { icon: makeIcon(isActive) }).addTo(map);
       marker.bindPopup(`
-        <div class="popup-name">${monster.name} — Entry ${i + 1}</div>
+        <div class="popup-name">${monster.name}</div>
         <div class="popup-loc">📍 ${spawn.label}</div>
-        <div class="popup-coords">${spawn.x}, ${spawn.y} · ${spawn.floor === 0 ? 'Surface' : 'Floor ' + spawn.floor}</div>
+        ${spawn.note ? `<div class="popup-note">💬 ${spawn.note}</div>` : ''}
+        <div class="popup-coords">${spawn.x}, ${spawn.y} · Floor ${spawn.floor}</div>
       `);
       markers.push(marker);
     });
