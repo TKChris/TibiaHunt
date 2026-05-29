@@ -625,7 +625,8 @@ function goToSpawn(monsterName, spawnIndex) {
   // Re-render markers so active one gets highlighted icon
   const q = document.getElementById('search').value;
   const filtered = monsters.filter(m => m.name.toLowerCase().includes(q.toLowerCase()));
-  showMarkersFor(filtered);
+  const toShow = filtered.filter(m => m.name === monsterName);
+  showMarkersFor(toShow);
 
   // Re-render list to update active class
   renderList(q);
