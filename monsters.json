@@ -56,10 +56,10 @@
   { "name": "Bonelord", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bonelord.gif", "loot": [], "spawns": [
     { "x": 32159, "y": 32782, "floor": 7, "label": "Vandura Bonelord Cave", "note": "Biggest Spawn" },
     { "x": 32478, "y": 31179, "floor": 7, "label": "Hellheim -4, -5", "note": "Level 5 has stronger monsters" },
-    { "x": 32853, "y": 32669, "floor": 7, "label": "Deeper Banuta - Port Hope", "note": "Use the Short cut, if you dont have egg of the many use Deeper Banuta spawn 2" }
-    { "x": 32839, "y": 32533, "floor": 9, "label": "Deeper Banuta - Spawn 2", "note": "Use the Short cut, if you dont have egg of the many use Deeper Banuta spawn 2" }
+    { "x": 32853, "y": 32669, "floor": 7, "label": "Deeper Banuta - Port Hope", "note": "Use the Short cut, if you dont have egg of the many use Deeper Banuta spawn 2" },
+    { "x": 32839, "y": 32533, "floor": 9, "label": "Deeper Banuta - Spawn 2", "note": "Use the Short cut, if you dont have egg of the many use Deeper Banuta spawn 2" },
     { "x": 32393, "y": 32118, "floor": 7, "label": "Altar Lake - Thais", "note": "Only 4 in the cave" },
-    { "x": 32359, "y": 32721, "floor": 7, "label": "Cult Caves - Liberty Bay", "note": "All floors" },
+    { "x": 32359, "y": 32721, "floor": 7, "label": "Cult Caves - Liberty Bay", "note": "All floors" }
   ]},
   { "name": "Carrion Worm", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Carrion_Worm.gif", "loot": [], "spawns": [
     { "x": 33309, "y": 32329, "floor": 7, "label": "Darashia Rotworm Caves - 1", "note": "" },
