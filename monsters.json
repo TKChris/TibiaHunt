@@ -93,82 +93,143 @@
     { "x": 33132, "y": 32568, "floor": 7, "label": "Mountain Tomb - Ankrahmun", "note": "North West" }
   ]},
   { "name": "Corym Charlatan", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Corym_Charlatan.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 33073, "y": 32085, "floor": 7, "label": "Corym Cave - Venore", "note": "Biggest spawn with 3 floors" },
+    { "x": 32606, "y": 32802, "floor": 7, "label": "Tiquanda Corym Caves - Port Hope", "note": "" },
+    { "x": 32268, "y": 32835, "floor": 7, "label": "Corym Black Market - Liberty Bay", "note": "The Corym Black Market is a dungeon below Liberty Bay, accessed through a Sewer Grate" },
+    { "x": 32328, "y": 31820, "floor": 7, "label": "Corym Caves - Carlin", "note": "Enter sewers in front of Magician's Alley 8" },
+    { "x": 32246, "y": 32601, "floor": 8, "label": "The Upper Spike - Kazordoon", "note": "Only for lower levels" }
   ]},
   { "name": "Crazed Beggar", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crazed_Beggar.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32826, "y": 31325, "floor": 7, "label": "Trade Quarter - Yalahar", "note": "Scattered on surface and roofs" },
+    { "x": 32924, "y": 31283, "floor": 7, "label": "Factory QUarter - Yalahar", "note": "Scattered on surface and +1" },
+    { "x": 32709, "y": 31308, "floor": 7, "label": "Foreigner Quarter - Yalahar", "note": "Scattered on surface and +1" }
   ]},
   { "name": "Crocodile", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crocodile.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32613, "y": 32704, "floor": 7, "label": "Tiquanda/Reptile and Crustacean Caves - Port Hope", "note": "" },
+    { "x": 32543, "y": 31290, "floor": 7, "label": "Fenrock", "note": "It can be reached via the NPC Maris who is located on the docks in the Foreigner Quarter" },
+    { "x": 32466, "y": 32939, "floor": 7, "label": "Laguna Islands", "note": "Scattered on all islands" }
   ]},
   { "name": "Crypt Shambler", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crypt_Shambler.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 33142, "y": 32838, "floor": 7, "label": "Ankrahmun Library Tomb", "note": "" },
+    { "x": 33233, "y": 32705, "floor": 7, "label": "Tarpit Tomb - Ankrahmun", "note": "1 square west of the top left corner of the center pool" },
+    { "x": 33255, "y": 32833, "floor": 7, "label": "Shadow Tomb - Ankrahmun", "note": "-2, -3, -4 scattered." },
+    { "x": 33027, "y": 32870, "floor": 7, "label": "Peninsula Tomb - Ankrahmun", "note": "-2, -3, -4 scattered." },
+    { "x": 33132, "y": 32641, "floor": 7, "label": "Oasis Tomb - Ankrahmun", "note": "" },
+    { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" },
+    { "x": 31931, "y": 32567, "floor": 7, "label": "Ramoa", "note": "Ramoa is accessed through The Shattered Isles Quest" },
+    { "x": 32675, "y": 31647, "floor": 10, "label": "Hellgate - Ab'Dendriel", "note": "Contains 2 rare bosses, worth visiting." }
   ]},
   { "name": "Cyclops", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Cyclops.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32494, "y": 32072, "floor": 7, "label": "Mount Sternum - Thais", "note": "Biggest Spawn" },
+    { "x": 33251, "y": 31698, "floor": 7, "label": "Cyclopolis - Edron", "note": "" },
+    { "x": 32735, "y": 32297, "floor": 7, "label": "Plains of Havoc - Venore", "note": "Scattered on surface" },
+    { "x": 32352, "y": 32391, "floor": 7, "label": "Cyclops Camp - Thais", "note": "Small spawn" }
   ]},
   { "name": "Dark Apprentice", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dark_Apprentice.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32664, "y": 32344, "floor": 7, "label": "Dark Cathedral", "note": "Biggest Spawn" },
+    { "x": 32502, "y": 32041, "floor": 7, "label": "Magician Tower - Thais", "note": "Tower is located above Mount Sternum, west of postman office" },
+    { "x": 32887, "y": 31094, "floor": 7, "label": "Magician Quarter - Yalahar", "note": "Spread out into various sections and floors." }
   ]},
   { "name": "Dark Magician", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dark_Magician.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32664, "y": 32344, "floor": 7, "label": "Dark Cathedral", "note": "Biggest Spawn" },
+    { "x": 32502, "y": 32041, "floor": 7, "label": "Magician Tower - Thais", "note": "Tower is located above Mount Sternum, west of postman office" },
+    { "x": 32887, "y": 31094, "floor": 7, "label": "Magician Quarter - Yalahar", "note": "Spread out into various sections and floors." }
   ]},
   { "name": "Dark Monk", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dark_Monk.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
-  ]},
-  { "name": "Dawnfly", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dawnfly.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32664, "y": 32344, "floor": 7, "label": "Dark Cathedral", "note": "Biggest Spawn" },
+    { "x": 32709, "y": 31308, "floor": 7, "label": "Foreigner Quarter - Yalahar", "note": "Scattered on surface and +1" },
+    { "x": 32359, "y": 32721, "floor": 7, "label": "Cult Caves - Liberty Bay", "note": "All floors" }
   ]},
   { "name": "Deepling Brawler", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Deepling_Brawler.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 33514, "y": 31324, "floor": 7, "label": "Fiehibha", "note": "Accessed through Grey Island, Access to this area is given through the Liquid Black Quest." }
   ]},
   { "name": "Dwarf", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dwarf.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32551, "y": 31930, "floor": 7, "label": "The Mines - Kazordoon", "note": "Get a ticket and go to west cart located with Pukosch, head down into the mines and bring Key 3802 for Mine Hub deeper below. " },
+    { "x": 32978, "y": 32661, "floor": 7, "label": "Tiquanda Dwarf Cave - Port Hope", "note": "Right next to Azuras castle" },
+    { "x": 33345, "y": 32027, "floor": 7, "label": "Dwarf Cave - Cormaya", "note": "" },
+    { "x": 32611, "y": 31501, "floor": 14, "label": "Beregar Mines", "note": "Look into The Hidden City of Beregar Quest" }
   ]},
   { "name": "Dwarf Guard", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dwarf_Guard.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32551, "y": 31930, "floor": 7, "label": "The Mines - Kazordoon", "note": "Get a ticket and go to west cart located with Pukosch, head down into the mines and bring Key 3802 for Mine Hub deeper below. " },
+    { "x": 32978, "y": 32661, "floor": 7, "label": "Tiquanda Dwarf Cave - Port Hope", "note": "Right next to Azuras castle" },
+    { "x": 33345, "y": 32027, "floor": 7, "label": "Dwarf Cave - Cormaya", "note": "" },
+    { "x": 32611, "y": 31501, "floor": 14, "label": "Beregar Mines", "note": "Look into The Hidden City of Beregar Quest" }
   ]},
   { "name": "Dwarf Soldier", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dwarf_Soldier.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32551, "y": 31930, "floor": 7, "label": "The Mines - Kazordoon", "note": "Get a ticket and go to west cart located with Pukosch, head down into the mines and bring Key 3802 for Mine Hub deeper below. " },
+    { "x": 32978, "y": 32661, "floor": 7, "label": "Tiquanda Dwarf Cave - Port Hope", "note": "Right next to Azuras castle" },
+    { "x": 33345, "y": 32027, "floor": 7, "label": "Dwarf Cave - Cormaya", "note": "" },
+    { "x": 32611, "y": 31501, "floor": 14, "label": "Beregar Mines", "note": "Look into The Hidden City of Beregar Quest" }
   ]},
   { "name": "Dworc Fleshhunter", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dworc_Fleshhunter.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" }
   ]},
   { "name": "Dworc Venomsniper", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dworc_Venomsniper.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" }
   ]},
   { "name": "Dworc Voodoomaster", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Dworc_Voodoomaster.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" }
   ]},
   { "name": "Elephant", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elephant.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32976, "y": 32704, "floor": 7, "label": "East Tiquanda - Port Hope", "note": "Small group" },
+    { "x": 32853, "y": 32669, "floor": 7, "label": "East Surface near Deeper Banuta shortcut - Port Hope", "note": "5-6 around entrence" },
+    { "x": 32677, "y": 31231, "floor": 7, "label": "Arena and Zoo Quarter - Yalahar", "note": "Few spread out in the quarter" },
+    { "x": 32230, "y": 31016, "floor": 7, "label": "Mammoth Shearing Factory - Svargrond", "note": "Six Elephants are only found in the southwestern room of the cave" }
   ]},
   { "name": "Elf", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elf.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32709, "y": 31308, "floor": 7, "label": "Foreigner Quarter - Yalahar", "note": "Scattered on surface and +1 & -1, -2" },
+    { "x": 32826, "y": 31325, "floor": 7, "label": "Trade Quarter - Yalahar", "note": "Few spread out in the quarter" },
+    { "x": 32512, "y": 31624, "floor": 7, "label": "Maze of lost Souls - Carlin", "note": "Last resort if all others are taken. (be level 60 or higher) Consider doing Maze of Lost Souls Quests if you havent" },
+    { "x": 33075, "y": 32170, "floor": 7, "label": "Shadowthorn - Venore", "note": "Requires world change. Look into Thornfire World Change" },
+    { "x": 32590, "y": 31645, "floor": 7, "label": "Elvenbane - Ab'dendriel", "note": "Dont let the name deceive you. there are not that many" }
   ]},
   { "name": "Elf Arcanist", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elf_Arcanist.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32709, "y": 31308, "floor": 7, "label": "Foreigner Quarter - Yalahar", "note": "Scattered on surface and +1 & -1, -2" },
+    { "x": 33075, "y": 32170, "floor": 7, "label": "Shadowthorn - Venore", "note": "Requires world change. Look into Thornfire World Change" },
+    { "x": 32590, "y": 31645, "floor": 7, "label": "Elvenbane - Ab'dendriel", "note": "Dont let the name deceive you. there are not that many" },
+    { "x": 33251, "y": 31698, "floor": 7, "label": "Cyclopolis - Edron", "note": "Few on various floors" }
   ]},
   { "name": "Elf Scout", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Elf_Scout.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32709, "y": 31308, "floor": 7, "label": "Foreigner Quarter - Yalahar", "note": "Scattered on surface and +1 & -1, -2" },
+    { "x": 32826, "y": 31325, "floor": 7, "label": "Trade Quarter - Yalahar", "note": "Few spread out in the quarter" },
+    { "x": 32512, "y": 31624, "floor": 7, "label": "Maze of lost Souls - Carlin", "note": "Last resort if all others are taken. (be level 60 or higher) Consider doing Maze of Lost Souls Quests if you havent" },
+    { "x": 33075, "y": 32170, "floor": 7, "label": "Shadowthorn - Venore", "note": "Requires world change. Look into Thornfire World Change" },
+    { "x": 32590, "y": 31645, "floor": 7, "label": "Elvenbane - Ab'dendriel", "note": "Dont let the name deceive you. there are not that many" }
   ]},
   { "name": "Emerald Damselfly", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Emerald_Damselfly.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32924, "y": 32148, "floor": 7, "label": "Salamander Cave - Venore", "note": "Right next to South gate entrence" },
+    { "x": 33264, "y": 32014, "floor": 7, "label": "Dryad Gardens - Cormaya", "note": "" }
   ]},
   { "name": "Fire Devil", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Fire_Devil.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32502, "y": 32041, "floor": 7, "label": "Magician Tower - Thais", "note": "Tower is located above Mount Sternum, west of postman office (2 on +2)" },
+    { "x": 33255, "y": 32833, "floor": 7, "label": "Shadow Tomb - Ankrahmun", "note": "6 on -2, 5 on -4" },
+    { "x": 32097, "y": 32631, "floor": 7, "label": "Hellgorge - Goroma", "note": "About 19 spread on 4 floors" }
   ]},
   { "name": "Frost Giant", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frost_Giant.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32385, "y": 31269, "floor": 7, "label": "Jotunar", "note": "" },
+    { "x": 32230, "y": 31016, "floor": 7, "label": "Mammoth Shearing Factory - Svargrond", "note": "To get to the factory, Go 1 step below carpet in Svargrond, head north east" },
+    { "x": 32060, "y": 31034, "floor": 7, "label": "Chyllfroest", "note": "" }
   ]},
   { "name": "Frost Giantess", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Frost_Giantess.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32385, "y": 31269, "floor": 7, "label": "Jotunar", "note": "" },
+    { "x": 32230, "y": 31016, "floor": 7, "label": "Mammoth Shearing Factory - Svargrond", "note": "To get to the factory, Go 1 step below carpet in Svargrond, head north east" },
+    { "x": 32060, "y": 31034, "floor": 7, "label": "Chyllfroest", "note": "" }
   ]},
   { "name": "Gang Member", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gang_Member.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32826, "y": 31325, "floor": 7, "label": "Trade Quarter - Yalahar", "note": "Scattered on surface and roofs" },
+    { "x": 32924, "y": 31283, "floor": 7, "label": "Factory QUarter - Yalahar", "note": "Scattered on surface and +1" },
+    { "x": 32709, "y": 31308, "floor": 7, "label": "Foreigner Quarter - Yalahar", "note": "Scattered on surface and +1" }
   ]},
   { "name": "Gargoyle", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Gargoyle.gif", "loot": [], "spawns": [
-    { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
+    { "x": 32389, "y": 32604, "floor": 7, "label": "Meriana Gargoyle Cave - Liberty Bay", "note": "This island can be accessed via the (Access to Meriana quest). " },
+    { "x": 33142, "y": 32838, "floor": 7, "label": "Ankrahmun Library Tomb", "note": "" },
+    { "x": 33233, "y": 32705, "floor": 7, "label": "Tarpit Tomb - Ankrahmun", "note": "1 square west of the top left corner of the center pool" },
+    { "x": 33255, "y": 32833, "floor": 7, "label": "Shadow Tomb - Ankrahmun", "note": "-2, -3, -4 scattered." },
+    { "x": 33027, "y": 32870, "floor": 7, "label": "Peninsula Tomb - Ankrahmun", "note": "-2, -3, -4 scattered." },
+    { "x": 33132, "y": 32641, "floor": 7, "label": "Oasis Tomb - Ankrahmun", "note": "" },
+    { "x": 33041, "y": 32627, "floor": 7, "label": "Mal'ouquah", "note": "Green Djinn & Efreets In the Kha'zeel mountains," },
+    { "x": 32097, "y": 32631, "floor": 7, "label": "Hellgorge - Goroma", "note": "" },
+    { "x": 32853, "y": 32669, "floor": 7, "label": "East Surface near Deeper Banuta shortcut - Port Hope", "note": "Spread out into various sections and floors." }
   ]},
   { "name": "Ghost", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Ghost.gif", "loot": [], "spawns": [
     { "x": 0, "y": 0, "floor": 7, "label": "Location TBD", "note": "" }
