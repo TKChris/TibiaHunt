@@ -588,6 +588,8 @@ function renderList(query) {
   }
 
   prompt.style.display = 'none';
+  document.querySelector('.sidebar').classList.add('mobile-open');
+
 
   const filtered = monsters.filter(m => m.name.toLowerCase().includes(q));
 
@@ -714,6 +716,7 @@ function goToSpawn(monsterName, spawnIndex) {
 document.getElementById('search').addEventListener('input', function () {
   activeSpawnKey = null;
   selectedMonster = null;
+  if (!this.value) document.querySelector('.sidebar').classList.remove('mobile-open');
   renderList(this.value);
 });
 
