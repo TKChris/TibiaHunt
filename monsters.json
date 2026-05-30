@@ -23,19 +23,19 @@
     { "x": 32028, "y": 31397, "floor": 7, "label": "Krimhorn", "note": "Biggest Spawn" },
     { "x": 32003, "y": 31228, "floor": 7, "label": "Bittermor", "note": "Second biggest spawn" },
     { "x": 32135, "y": 31332, "floor": 7, "label": "Ragnir", "note": "Third biggest spawn" },
-    { "x": 32649, "y": 31293, "floor": 6, "label": "Fenrock", "note": "It can be reached via the NPC Maris" }
+    { "x": 32543, "y": 31290, "floor": 7, "label": "Fenrock", "note": "It can be reached via the NPC Maris who is located on the docks in the Foreigner Quarter" }
   ]},
   { "name": "Barbarian Headsplitter", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barbarian_Headsplitter.gif", "loot": [], "spawns": [
     { "x": 32028, "y": 31397, "floor": 7, "label": "Krimhorn", "note": "Biggest Spawn" },
     { "x": 32003, "y": 31228, "floor": 7, "label": "Bittermor", "note": "Second biggest spawn" },
     { "x": 32135, "y": 31332, "floor": 7, "label": "Ragnir", "note": "Third biggest spawn" },
-    { "x": 32649, "y": 31293, "floor": 6, "label": "Fenrock", "note": "It can be reached via the NPC Maris" }
+    { "x": 32543, "y": 31290, "floor": 7, "label": "Fenrock", "note": "It can be reached via the NPC Maris who is located on the docks in the Foreigner Quarter" }
   ]},
   { "name": "Barbarian Skullhunter", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Barbarian_Skullhunter.gif", "loot": [], "spawns": [
     { "x": 32028, "y": 31397, "floor": 7, "label": "Krimhorn", "note": "Biggest Spawn" },
     { "x": 32003, "y": 31228, "floor": 7, "label": "Bittermor", "note": "Second biggest spawn" },
     { "x": 32135, "y": 31332, "floor": 7, "label": "Ragnir", "note": "Third biggest spawn" },
-    { "x": 32649, "y": 31293, "floor": 6, "label": "Fenrock", "note": "It can be reached via the NPC Maris" }
+    { "x": 32543, "y": 31290, "floor": 7, "label": "Fenrock", "note": "It can be reached via the NPC Maris who is located on the docks in the Foreigner Quarter" }
   ]},
   { "name": "Bear", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Bear.gif", "loot": [], "spawns": [
     { "x": 33117, "y": 31781, "floor": 7, "label": "Edron Troll Cave", "note": "Located -2" },
@@ -57,7 +57,7 @@
     { "x": 32159, "y": 32782, "floor": 7, "label": "Vandura Bonelord Cave", "note": "Biggest Spawn" },
     { "x": 32478, "y": 31179, "floor": 7, "label": "Hellheim -4, -5", "note": "Level 5 has stronger monsters" },
     { "x": 32853, "y": 32669, "floor": 7, "label": "Deeper Banuta - Port Hope", "note": "Use the Short cut, if you dont have egg of the many use Deeper Banuta spawn 2" },
-    { "x": 32839, "y": 32533, "floor": 9, "label": "Deeper Banuta - Spawn 2", "note": "Use the Short cut, if you dont have egg of the many use Deeper Banuta spawn 2" },
+    { "x": 32839, "y": 32533, "floor": 7, "label": "Deeper Banuta - Spawn 2", "note": "Use the Short cut, if you dont have egg of the many, use the entrence through Ape city" },
     { "x": 32393, "y": 32118, "floor": 7, "label": "Altar Lake - Thais", "note": "Only 4 in the cave" },
     { "x": 32359, "y": 32721, "floor": 7, "label": "Cult Caves - Liberty Bay", "note": "All floors" }
   ]},
@@ -66,7 +66,7 @@
     { "x": 33225, "y": 32301, "floor": 7, "label": "Darashia Rotworm Caves - 2", "note": "" },
     { "x": 33133, "y": 32433, "floor": 7, "label": "Darashia Rotworm Caves - 3", "note": "" },
     { "x": 32221, "y": 32859, "floor": 7, "label": "Vandura Rotworm Cave - Liberty Bay", "note": "Also home of Rotworm Queen." },
-    { "x": 32658, "y": 32012, "floor": 13, "label": "Drillworm Caves - Kazrdoon", "note": "The Drillworm Caves can be found in the southern part of the Kazordoon city mine, near the Steamship" }
+    { "x": 32616, "y": 31947, "floor": 7, "label": "Drillworm Caves - Kazrdoon", "note": "The Drillworm Caves can be found in the southern part of the Kazordoon city mine, near the Steamship" }
   ]},
   { "name": "Centipede", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Centipede.gif", "loot": [], "spawns": [
     { "x": 32807, "y": 32542, "floor": 7, "label": "Between Port Hope & Banuta", "note": "Scattered on surface" },
@@ -96,8 +96,7 @@
     { "x": 33073, "y": 32085, "floor": 7, "label": "Corym Cave - Venore", "note": "Biggest spawn with 3 floors" },
     { "x": 32606, "y": 32802, "floor": 7, "label": "Tiquanda Corym Caves - Port Hope", "note": "" },
     { "x": 32268, "y": 32835, "floor": 7, "label": "Corym Black Market - Liberty Bay", "note": "The Corym Black Market is a dungeon below Liberty Bay, accessed through a Sewer Grate" },
-    { "x": 32328, "y": 31820, "floor": 7, "label": "Corym Caves - Carlin", "note": "Enter sewers in front of Magician's Alley 8" },
-    { "x": 32246, "y": 32601, "floor": 8, "label": "The Upper Spike - Kazordoon", "note": "Only for lower levels" }
+    { "x": 32328, "y": 31820, "floor": 7, "label": "Corym Caves - Carlin", "note": "Enter sewers in front of Magician's Alley 8" }
   ]},
   { "name": "Crazed Beggar", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Crazed_Beggar.gif", "loot": [], "spawns": [
     { "x": 32826, "y": 31325, "floor": 7, "label": "Trade Quarter - Yalahar", "note": "Scattered on surface and roofs" },
@@ -315,11 +314,11 @@
   ]},
   { "name": "Lizard Executioner", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Executioner.gif", "loot": [], "spawns": [
     { "x": 31936, "y": 31863, "floor": 7, "label": "Hidden Lizard Temple - Targuna", "note": "" },
-    { "x": 31936, "y": 31863, "floor": 7127, "label": "Tiquanda Trapwood - Port Hope", "note": "" }
+    { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" }
   ]},
   { "name": "Lizard Henchman", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Henchman.gif", "loot": [], "spawns": [
     { "x": 31936, "y": 31863, "floor": 7, "label": "Hidden Lizard Temple - Targuna", "note": "" },
-    { "x": 31936, "y": 31863, "floor": 7127, "label": "Tiquanda Trapwood - Port Hope", "note": "" }
+    { "x": 32688, "y": 32911, "floor": 7, "label": "Tiquanda Trapwood - Port Hope", "note": "" }
   ]},
   { "name": "Lizard Sentinel", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Lizard_Sentinel.gif", "loot": [], "spawns": [
     { "x": 32952, "y": 32855, "floor": 7, "label": "Chor - Port Hope", "note": "" },
@@ -424,10 +423,11 @@
     { "x": 32754, "y": 31928, "floor": 7, "label": "Poacher Caves - Venore", "note": "-2 -3, & -4 in other cave. Get to Poacher cave near Lukosch at Kazordoon Cart system " }
   ]},
   { "name": "Polar Bear", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Polar_Bear.gif", "loot": [], "spawns": [
-    { "x": 32075, "y": 31669, "floor": 7, "label": "Ice Islands - Carlin", "note": "Folda, Vega, Senja" },
+    { "x": 32354, "y": 31057, "floor": 7, "label": "Inukaya - Nibelor - Svargrond", "note": "Biggest Spawn" },
     { "x": 32099, "y": 31245, "floor": 7, "label": "Surface Spawns 1", "note": "2 Polar Bears" },
     { "x": 32043, "y": 31271, "floor": 7, "label": "Surface Spawns 2", "note": "5-6 Polar bears on the bridge" },
-    { "x": 32025, "y": 31258, "floor": 7, "label": "Surface Spawns 3", "note": "2-3 more infront of Bittermor" }
+    { "x": 32025, "y": 31258, "floor": 7, "label": "Surface Spawns 3", "note": "2-3 more infront of Bittermor" },
+    { "x": 32075, "y": 31669, "floor": 7, "label": "Ice Islands - Carlin", "note": "Very few on Folda, Vega, Senja" }
   ]},
   { "name": "Quara Mantassin Scout", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Quara_Mantassin.gif", "loot": [], "spawns": [
     { "x": 32208, "y": 32887, "floor": 7, "label": "Quara Grotto - Liberty Bay", "note": "" },
@@ -450,7 +450,7 @@
     { "x": 33225, "y": 32301, "floor": 7, "label": "Darashia Rotworm Caves - 2", "note": "" },
     { "x": 33133, "y": 32433, "floor": 7, "label": "Darashia Rotworm Caves - 3", "note": "" },
     { "x": 32221, "y": 32859, "floor": 7, "label": "Vandura Rotworm Cave - Liberty Bay", "note": "Also home of Rotworm Queen." },
-    { "x": 32658, "y": 32012, "floor": 13, "label": "Drillworm Caves - Kazrdoon", "note": "The Drillworm Caves can be found in the southern part of the Kazordoon city mine, near the Steamship" }
+    { "x": 32616, "y": 31947, "floor": 7, "label": "Drillworm Caves - Kazrdoon", "note": "The Drillworm Caves can be found in the southern part of the Kazordoon city mine, near the Steamship" }
   ]},
   { "name": "Salamander", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Salamander.gif", "loot": [], "spawns": [
     { "x": 32999, "y": 32151, "floor": 7, "label": "City Swamp - Venore", "note": "Scattered on surface" },
@@ -485,7 +485,7 @@
   { "name": "Skeleton Warrior", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Skeleton_Warrior.gif", "loot": [], "spawns": [
     { "x": 33109, "y": 31722, "floor": 7, "label": "Vampire Crypts - Edron", "note": "Can be found on -1 and -2" },
     { "x": 33018, "y": 32443, "floor": 7, "label": "Drefia - Darashia", "note": "Scattered on surface and below" },
-    { "x": 32649, "y": 31293, "floor": 6, "label": "Fenrock", "note": "It can be reached via the NPC Maris" }
+    { "x": 32543, "y": 31290, "floor": 7, "label": "Fenrock", "note": "It can be reached via the NPC Maris who is located on the docks in the Foreigner Quarter" }
   ]},
   { "name": "Smuggler", "image": "https://tibia.fandom.com/wiki/Special:Redirect/file/Smuggler.gif", "loot": [], "spawns": [
     { "x": 32664, "y": 32344, "floor": 7, "label": "Dark Cathedral", "note": "Biggest Spawn" },
